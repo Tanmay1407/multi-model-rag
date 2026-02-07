@@ -1,0 +1,35 @@
+# FastAPI and Server
+fastapi
+uvicorn[standard]
+python-multipart
+sse-starlette
+
+# Database
+motor  # Async MongoDB driver
+pymongo
+
+# Vector Database
+chromadb
+langchain-chroma
+
+# LangChain and AI
+langchain
+langchain-community
+langchain-core
+langchain-openai
+openai
+
+# Document Processing
+unstructured[all-docs]
+
+# Utilities
+python-dotenv
+pydantic>=2.0
+pydantic-settings
+aiofiles
+
+# Authentication
+passlib[bcrypt]
+python-jose[cryptography]
+bcrypt==4.2.1  # Pin to 4.x for passlib compatibility
+email-validator
